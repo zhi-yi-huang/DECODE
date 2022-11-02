@@ -1,0 +1,9 @@
+adjacency_recall:1.0
+adjacency_precision:0.49795918367346936
+adjacency_fscore:0.664850136239782
+orientation_recall:0.8311475409836065
+orientation_precision:0.4138775510204082
+orientation_fscore:0.5525885558583107
+causal_accuracy:0.8311475409836065
+shd:718
+nnz:1225
