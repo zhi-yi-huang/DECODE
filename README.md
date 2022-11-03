@@ -55,9 +55,11 @@ Then the procedure of DECODE is as follows:
 2. **Approximate CDF of data:** Approximate the cumulative distribution function $F(X)$ by obtaining the ranks of the data. 
 
 3. **Find a root causal variable** $X_r$ by the following equation:
+
 $$
 X_r = \arg \max_{X_i \in \mathbf{X}} \sum_{X_j \in \mathbf{X}\setminus \lbrace X_i \rbrace} \Theta_{ji}, 
 $$
+
 where $\Theta_{ji}$ is defined in above.
 
 4. Append $r$ to the end of $K$.
